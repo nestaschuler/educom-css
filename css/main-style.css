@@ -6,26 +6,73 @@ html, body {
 
 .navigation{
     width: 100%;
-    background-color:rgb(44, 44, 155);
-    color:aliceblue;
+    background-color:transparent;
+    color: #000;
     padding: 40px;
+    font-size: 20px;
+    font: Arial;
 }
-
 .content {
     display: flex;
-    background-color: #ff0;
+    background-color: #fff;
     justify-content: center;
     align-items: center;
     padding: 30px;
 }
 
-.block {
-    background-color: #F00;
-    display: inline-block;
+.block1 {
+    background: url(https://previews.123rf.com/images/samot/samot1202/samot120200049/12159484-colosseum-in-black-and-white-style-rome-italy.avif);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     width: 32%;
     height: 150px;
     margin: 5px;
     border: 10px solid transparent;
+    font-weight:bold;
+    color: white;
+    font-size: 24px;
+    border-radius: 12px;
+}
+
+.block2 {
+    background: url(https://cdn.artphotolimited.com/images/5b9fc1ecac06024957be8806/1000x1000/brussels-busy-view-of-the-grand-place-with-the-guild-houses-in-the-background.jpg);
+   background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 32%;
+    height: 150px;
+    margin: 5px;
+    border: 10px solid transparent;
+    font-weight:bold;
+    color: white;
+    font-size: 24px;
+    border-radius: 12px;
+}
+
+.block3 {
+    background: url(https://cdn-thumbs.ohmyprints.net/1/6fe3962d9f4fafa556b5c77fadc14dfc/817x600/thumbnail/fit.jpg);
+   background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 32%;
+    height: 150px;
+    margin: 5px;
+    border: 10px solid transparent;
+    font-weight:bold;
+    color: white;
+    font-size: 24px;
+    border-radius: 12px;
+    
 }
 
 .block:hover {
@@ -36,7 +83,11 @@ html, body {
 }
 
 .footer {
-    background-color: #000;
+    background-color: #cecdcd;
     color: #FFF;
     padding: 40px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
 }
