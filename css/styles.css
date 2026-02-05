@@ -1,0 +1,51 @@
+/**
+ * Basis CSS file
+ *
+ * @author  Educom
+ * @version 1.0
+ *
+ */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.red-square {
+    width: 80px;
+    height: 80px;
+    color: #FFF;
+    padding: 20px;
+    margin: 10px;
+    font-size: 14px;
+    background-color: rgba(185, 100, 178, 0.4);
+    display: inline-block;
+}
+
+
+.cascading-parent {
+    font-weight: bold;
+    color: #FFF;
+}
+
+.cascading-child {
+    background-color: #000;
+    width: 200px;
+    height: 200px;
+}
+
+.pink-circle{
+    width: 100px;
+    height: 100px;
+    background-color:#e0a8e0;
+    border-radius: 50%;
+}
+
+.pink-innercircle{
+    color: #e0a8e0 !important;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(252, 252, 252);
+    border-radius: 50%;
+}
+
